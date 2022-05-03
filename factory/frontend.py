@@ -10,12 +10,13 @@ class TermStyles:
 #                                                         #
 #              Welcome to Saurabh's Library               #
 #                                                         #
-# ------------------------------------------------------- #
+# ======================================================= #
 #  HomePage:                                              #
 #                                                         #
 #                 1. Login & Signup                       #
 #                 2. About Library                        #
 #                 3. File a complaint                     #
+#                 4. Admin Menu                           #
 #                                                         #
 # ------------------------------------------------------- #
 #                                                         #
@@ -26,7 +27,6 @@ class TermStyles:
 
 Enter Your Choice: '''
 
-
     Login_or_Signup_accountName = input('''
 ##########################################################
 #                                                        #
@@ -35,8 +35,31 @@ Enter Your Choice: '''
 # ------------------------------------------------------ #
                                                         
    Enter Account Holder's Name (UserName): ''')
+
     Login_or_Signup_accountPin = input('''   Enter Account Pin: ''')
 
+    failed_login = '''
+##########################################################
+#                                                        #
+#           Incorrect login password or pin              #
+#                                                        #
+# ------------------------------------------------------ #'''
 
-
-print(TermStyles.Login_or_Signup_accountName,TermStyles.Login_or_Signup_accountPin, end="")
+    UserOptions = '''
+##########################################################
+#                                                        #
+#               Welcome to Saurabh's Library             #
+#                                                        #
+# ====================================================== #
+#  Menu:                                                 #
+#                                                        #
+#  1. Borrow Book (Max 5)                                #
+#  2. View all books                                     #
+#  3. Return Pending Books                               #
+#  4. Clear Dues                                         #
+#  5.                                                    #
+#  1. Library Card Info                                  #
+#  2.                                                    #
+#                                                        #
+# ------------------------------------------------------ #
+    '''
