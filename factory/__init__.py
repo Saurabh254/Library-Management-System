@@ -6,9 +6,11 @@ from .CustomException import (
     SqlCodeError,
     TerminalClearError
 )
+from.frontend import TermStyles
 
 __all__ = [
     logger,
+    TermStyles,
     PathError,
     PsqlError,
     KwargsError,

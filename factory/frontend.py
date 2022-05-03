@@ -27,16 +27,16 @@ class TermStyles:
 
 Enter Your Choice: '''
 
-    Login_or_Signup_accountName = input('''
+    Login_or_Signup_accountName = '''
 ##########################################################
 #                                                        #
 #              Login into Your Account                   #
 #                                                        #
 # ------------------------------------------------------ #
                                                         
-   Enter Account Holder's Name (UserName): ''')
+   Enter Account Holder's Name (UserName): '''
 
-    Login_or_Signup_accountPin = input('''   Enter Account Pin: ''')
+    Login_or_Signup_accountPin = '''   Enter Account Pin: '''
 
     failed_login = '''
 ##########################################################
@@ -57,9 +57,9 @@ Enter Your Choice: '''
 #  2. View all books                                     #
 #  3. Return Pending Books                               #
 #  4. Clear Dues                                         #
-#  5.                                                    #
-#  1. Library Card Info                                  #
-#  2.                                                    #
+#  5. Library Card Info                                  #
 #                                                        #
 # ------------------------------------------------------ #
-    '''
+    Enter Your Choice: '''
+
+    
